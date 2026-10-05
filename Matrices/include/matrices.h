@@ -8,7 +8,7 @@
 #include <glm/vec3.hpp>
 #include <glm/vec4.hpp>
 
-#include "Mesh.h"
+#include "Vertex3D.h"
 #include "framebuffer.h"
 
 glm::mat4 buildModelMatrix(
