@@ -1,0 +1,26 @@
+{
+  "name": "software-matrices",
+  "version": "1.0.0",
+  "builtin-baseline": "4bee3f5aae7aefbc129ca81c33d6a062b02fcf3b",
+  "dependencies": [
+    "glm"
+  ],
+  "features": {
+    "graphics": {
+      "description": "Build the interactive SFML application",
+      "dependencies": [
+        "assimp",
+        {
+          "name": "sfml",
+          "version>=": "3.0.0"
+        }
+      ]
+    },
+    "tests": {
+      "description": "Build the GoogleTest test suites",
+      "dependencies": [
+        "gtest"
+      ]
+    }
+  }
+}
